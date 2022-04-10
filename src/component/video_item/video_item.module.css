@@ -1,7 +1,13 @@
 
 .container {
+  padding: 0.2em;
+}
+
+.container.grid {
   width: 50%;
-  padding: 0.3em;
+}
+.container.list {
+  width: 100%;
 }
 
 .video {
@@ -26,16 +32,17 @@
 }
 
 .metadata {
-  margin-left: 0.3em;
+  margin-left: 0.2em;
 }
 
 .title,
 .channel {
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   
 }
 
 .channel {
   font-size: 0.6rem;
 }
+

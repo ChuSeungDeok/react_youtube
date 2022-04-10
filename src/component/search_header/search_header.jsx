@@ -6,7 +6,7 @@ const SearchHeader = ({onSearch}) => {
     const handleSearch = ()=>{
         const value = inputRef.current.value;
         onSearch(value);
-    }
+    };
     const onClick = ()=> {
         handleSearch();
     };
@@ -15,7 +15,7 @@ const SearchHeader = ({onSearch}) => {
         if (event.key === 'Enter'){
             handleSearch();
         }
-    }
+    };
     return (
     <header className={styles.header}>
             <div className={styles.logo}>
@@ -31,6 +31,6 @@ const SearchHeader = ({onSearch}) => {
             </button>
     </header>   
     );
-}
+};
 
 export default SearchHeader;
