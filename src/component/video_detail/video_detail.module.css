@@ -1,7 +1,59 @@
 .detail {
     padding: 0.2em;
+    border-bottom: 1px solid rgb(99, 98, 98);
+    margin-bottom: 10px;
 }
 
 .description {
     white-space: pre-wrap;
+    margin-top: 40px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.metadata{
+    margin-bottom: 0px;
+    color: rgb(63, 63, 245);
+    
+}
+
+.time {
+    margin-top: 0em;
+    
+}
+
+.title {
+    margin: 0px;
+}
+
+.channelName{
+    display: flex;
+    font-size: large;
+    margin: 3px;
+    cursor: pointer;
+}
+.subscribe{
+    color: rgb(250, 248, 248);
+    border: none;
+    background-color: rgb(255, 0, 0);
+    border-radius: 3px;
+    display: flex;
+    cursor: pointer;
+}
+
+.channel{
+    display: flex;
+    border-top: 1px solid rgb(99, 98, 98);
+    border-bottom: 1px solid rgb(99, 98, 98);
+    align-items: center;
+    justify-content: space-between;
+}
+.moreBtn{
+    background-color: rgb(49, 48, 48);;
+    border: none;
+    color: white;
+    cursor: pointer;
+    
 }

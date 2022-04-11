@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     margin-right: 0.5em;
-    
+    cursor: pointer;
 }
 
 .input {
@@ -27,6 +27,6 @@
 .buttonImg{
     height: 100%;
     padding: 0.5em 0.2em;
-    
+    cursor: pointer;
 }
 

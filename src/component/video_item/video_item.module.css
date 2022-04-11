@@ -11,12 +11,12 @@
 }
 
 .video {
-  background-color: rgb(164, 167, 161);
+  background-color: rgb(119, 118, 118);
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
-  border: 2px solid rgb(100, 94, 8);
+  border: 2px solid rgb(53, 52, 49);
   box-shadow: 4px 8px 7px 2px #383733;
   cursor: pointer;
   transition: transform 250ms ease-in;
