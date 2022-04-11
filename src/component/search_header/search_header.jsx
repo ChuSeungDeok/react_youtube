@@ -19,7 +19,7 @@ const SearchHeader = memo(({onSearch}) => {
     return (
     <header className={styles.header}>
             <div className={styles.logo}>
-            <a href=""><img className={styles.img} src="./images/logo.png" alt="logo" /></a>
+            <a href=""><img className={styles.img} src="../images/logo.png" alt="logo" /></a>
             <h1 className={styles.title}>ChuTube</h1>
             </div>
             <input ref={inputRef} 
@@ -27,7 +27,7 @@ const SearchHeader = memo(({onSearch}) => {
                 type="search" placeholder="Search..." 
                 onKeyPress={onKeyPress}/>
             <button className={styles.button} type='submit' onClick={onClick}>
-                <img className={styles.buttonImg} src="./images/search.png" alt="search" />
+                <img className={styles.buttonImg} src="../images/search.png" alt="search" />
             </button>
     </header>   
     );
