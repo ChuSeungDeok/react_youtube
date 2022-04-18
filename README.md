@@ -33,8 +33,6 @@ detailpage
 
 
 
-- 검색기능
-
-input을 이용하여 원하는 키워드 검색가능
+- 검색기능 : input을 이용하여 원하는 키워드 검색가능
 
 <img src="https://user-images.githubusercontent.com/101231647/163806395-e5f6a7cf-f56e-4150-aefa-ceada7275290.gif"/>
