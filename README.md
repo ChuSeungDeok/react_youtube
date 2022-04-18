@@ -30,6 +30,9 @@ detailpage
 
 <img src="https://user-images.githubusercontent.com/101231647/163806177-53e094f2-2e72-4eb6-a492-960ffb37e949.gif"/>
 
+
+
+
 - 검색기능
 
 input을 이용하여 원하는 키워드 검색가능
