@@ -5,3 +5,11 @@
   padding-left: 0;
   margin: 0;
 }
+
+@media screen and (max-width : 768px){
+  .videos{
+    display: block;
+    
+  }
+}
+  
