@@ -7,13 +7,10 @@
 2. Postman
 3. PostCSS
 4. javascript
-5. Axios
+
 
 PostCss 사용이유
 기존 Css or Sass로 사용하여도 문제는 없으나 계속 사용할때마다 클래스명을 다르게 지정해줘야하며 그렇게 진행하다보면 내가 사용한 클래스명이 뭐였는지도 헷갈리는 불편한 상황이 발생하여 모듈화가 가능한 PostCss 사용
-
-Axios 사용이유
-처음 작성할때는 웹API인 fetch를 사용하였는데 query params를 작성할때 가독성이 떨어지는 긴 url을 사용하여야했고, 또한 받은 response를 JSON으로 일일이 변환해 줘야 하는 불편함이 발생하여 query params를 조금 더 가독성있고, response를 JSON으로 일일이 변환하지 않아도 되는 라이브러리인 Axios를 사용
 
 ## 주요기능
 
